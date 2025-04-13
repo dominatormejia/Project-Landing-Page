@@ -23,19 +23,24 @@
     margin: 10px;
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    gap: 10px;
     
 }
 
 .hero {
     display: flex;
-    margin-top: 30px;
+    margin-top: 40px;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .text {
     display: flex;
     flex-direction: column;
     align-items: first baseline;
+    gap: 5px;
+    width: 500px;
 }
 
 .imgs {
@@ -73,6 +78,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding: 50px;
     
     
 }
@@ -100,6 +106,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 100px;
+    justify-content: center;
    
     
 }
@@ -112,13 +119,55 @@ button {
 .quote-p {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 40px;
+    padding-left: 60px;
 }
 
 .container-action {
-    display: flex;
-    justify-content: center;
     background-color: #3882f6;
     color: white;
-    padding: 50px;
-    margin: 100px;
+    padding: 45px;
+    margin: 150px;
+    border-radius: 4px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-inside{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 5px;
+    flex-grow: 0;
+    max-height: 50px;
+    align-items: center;
+    
+}
+
+.button-sign {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.footer-wrapper {
+    background-color: #1f2937;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: 5px;
 }
