@@ -52,6 +52,8 @@
 .container {
     background-color: #1f2937;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
@@ -170,4 +172,12 @@ button {
 button {
     border: none;
     padding: 5px;
+}
+
+
+.first-img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
 }
